@@ -127,8 +127,8 @@ body{
 
 #mid{
     width: 654px;
-    height: 40%;
-    min-height: 314px;
+    height: 10%;
+    min-height: 250px;
     margin: 0 auto;
     position: relative;
 }
