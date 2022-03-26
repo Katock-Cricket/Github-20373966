@@ -35,7 +35,7 @@
 
                 <div id="search-div">
                     <div id="search-input">
-                        <input id="input" />
+                        <input id="input" onkeydown="entersearch()"/>
                         <div id="search-btn">百度一下</div>
                     </div>
                 </div>
@@ -45,13 +45,18 @@
                 <span id="hot-title">热榜之《20373966》分榜</span>
                 <img id="right_img" src="img/right.png"/>
                 <a id="more">更多</a>
+                <div id="first" style="float: left">
+                    <div id="pic-content" style="width: 130px;float: left;">
+                        <img id="yuanshen" src="img/genshin.jpg"/>
+                    </div>
+                    <div id="text-content" style="float:left;">
+                        <div id="yuanshen1" style="height: 30px;cursor: pointer;">原神</div>
+                        <div style="height: 30px;color: dimgray;">热搜指数: 324853
+                        <img id="1_up_img" src="img/up.png" style=" width: 15px ;"/></div>
+                        <div style="color: rgb(170, 170, 170);">手机游戏</div>
+                    </div>
+                </div>
                 <ul id="hot">
-                    <li>
-                        <span class="hot-order hot-order-1">1</span>
-                        <span class="hot-content">原神</span>
-                        <img id="up_img" src="img/up.png"/>
-                        <span id="hot_num">324853</span>
-                    </li>
                     <li>
                         <span class="hot-order hot-order-2">2</span>
                         <span class="hot-content">香肠派对</span>

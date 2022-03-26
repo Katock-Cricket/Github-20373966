@@ -6,11 +6,17 @@ window.onload = function () {
     document.getElementById('search-btn').addEventListener('click', function() {
         search();
     });
-    
+
     // TODO: 在此为 top-right 元素设置监听器
     document.getElementById('top-right').addEventListener('click', function() {
         clickLogin();
     });
+}
+
+function entersearch(){  
+    var event = window.event || arguments.callee.caller.arguments[0];  
+    if (event.keyCode == 13)  
+          search();  
 }
 
 function search() {
@@ -18,8 +24,14 @@ function search() {
     var _input = document.getElementById('input').value;
     if (_input == '')
         alert('请输入搜索内容');
-    else
+    else {
         alert(_input);
+        var link = "https://www.baidu.com/s?wd="
+        link += _input;
+        window.open(link);
+        location.reload();
+    }
+        
     console.log('');
 }
 

@@ -220,11 +220,20 @@ body{
     vertical-align: bottom;
 }
 
+#yuanshen{
+    border-radius: 15%;
+    width: 120px;
+    height: auto;
+}
+
+#yuanshen1:hover{
+    color: #315efb;
+}
+
 #up_img{
     float: right;
     width: 15px;
     height: auto;
-    vertical-align: middle;
 }
 
 #hot_num{
